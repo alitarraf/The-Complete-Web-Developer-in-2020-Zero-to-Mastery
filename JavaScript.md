@@ -293,6 +293,7 @@ aa.concat(["d","e"]); //return ["b", "c","d","e"], aa === ["b", "c"] didn't put 
 aa.sort();  // aa === ["b", "c"]
 array.splice(0, 1);  //at position 0, remove one element aa=== ["c"]
 ```
+Resource: [JS Array Explorer](https://sdras.github.io/array-explorer/) - Find the array method you need without digging through the docs.
 
 ### forEach
 ```javascript
