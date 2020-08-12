@@ -568,6 +568,12 @@ Object.entries(obj).forEach(value => {
 })
 // ['name0','aa']
 // ['name1','bb']
+
+//change object to array and remove name
+Object.entries(obj).map(value => {
+	return value[1] + value[0].replace("name",'');  
+})
+// ['aa0','bb1']
 ```
 
 **object spread operator**
