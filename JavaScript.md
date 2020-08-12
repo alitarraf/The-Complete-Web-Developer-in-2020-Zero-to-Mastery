@@ -612,7 +612,7 @@ const entries = ['aa','bb',,,,,'cc']
 entries.flat()  // ['aa','bb','cc']
 ```
 
-**flatmap()**
+**flatmap()**<br>
 ```javascript
 const arrayflat = array.flatMap(element => element*2)
 
@@ -621,7 +621,16 @@ const greeting = [["you", "are"], ["learning", "fast!"]];
 greeting.flatMap(x => x.join(' ')) //['you are', 'learning fast!' ]
 ```
 
-**trimStart() trimEnd()** <br>
+**trimStart() trimEnd()**<br>
+```javascript
+const useremail1 = '          john@gmail.com';  
+const useremail2 = 'john@gmail                ';
+
+useremail1.trimStart();
+useremail2.trimEnd();
+
+// removes spaces at start and end.
+```
 
 **fromEntries()** <br>
 change array into object
